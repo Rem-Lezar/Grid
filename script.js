@@ -3,8 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	// NOTES SECTION
 	//========================================
-	const --> Var declaration, Never Changes
-	let --> Var declaration, Can change
+	// const --> Var declaration, Never Changes
+	// let --> Var declaration, Can change
+	//========================================
+	
+	
+	
+	
 	//=========================================
 	// INIT DECLARATIONS
 	//========================================
