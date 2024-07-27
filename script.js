@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const coin = document.getElementById('coin');
 	let coin_position = { x: getRandomInt(12), y: getRandomInt(12) }; // TESTING 12 (prev:11) contingent on func.
 	
-	let currency_coins = 0
+	let currency_coins = 0;
 	//========================================
 	// INIT FUNCTION DELCARATIONS
 	//========================================
