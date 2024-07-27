@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center; /* Justify: Left vs Right */
+    align-items: center; /* Align: Up vs Down */
+    height: 100vh; /* 100 "Viewport height" */
+    margin: 0;
+	padding: 0;
+    background-color: #786378; /*Magenta*/
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(12, 50px);
+	grid-template-rows: repeat(12, 50px);
+    background-color: black;
+	border-style: solid;
+	border-width: 4px;
+	border-color: gold;
+}
+
+#pane {
+    display: grid;
+	width: 50px; /* Explicit statement to make it a static width. May want to add to other elements. */
+    grid-template-columns: repeat(1, 50px);
+	grid-template-rows: repeat(12, 50px);
+    background-color: black;
+	border-style: solid;
+	border-width: 4px;
+	 border-right: none;
+	border-color: gold;
+}
+
+#cube {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#coin {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#coin_display {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 14px;
+	grid-column-start: 1; /* Adjust this based on where you want it */
+    grid-row-start: 1; /* Adjust this based on where you want it */
+}
